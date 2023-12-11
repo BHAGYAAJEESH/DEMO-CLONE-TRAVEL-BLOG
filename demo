@@ -1,0 +1,222 @@
+<div class="pic1">
+           <img src="max.jpg" alt="">
+           <div class="middle">
+                <div class="text">Hello...</div>
+           </div>
+       </div>
+       <div class="pic2">
+        <img src="house.jpg" alt="">
+        <div class="middle1">
+            <div class="text1">Home Stay...</div>
+        </div>
+       </div>
+       <div class="pic3">
+        <img src="work.jpg" alt="">
+        <div class="middle2">
+            <div class="text2">Time to Work...</div>
+        </div>
+       </div>
+       <div class="pic4">
+        <img src="pix.jpg" alt="">
+        <div class="middle3">
+            <div class="text3">Stay Healthy...</div>
+        </div>
+       </div>
+       <div class="pic5">
+        <img src="cake.jpg" alt="">
+        <div class="middele4">
+            <div class="text4">Home made...</div>
+        </div>
+
+       </div>
+
+
+       .pic1 > img{
+        position: absolute;
+        width: 268px;
+        height: 350px;
+        margin-top: 5.3%;
+        opacity: 1;
+        transition: 0.1s ease;
+        backface-visibility: hidden;
+    }
+    .pic2 > img{
+        position: absolute;
+        width:283px ;
+        height: 350px;
+        margin-top: 5.3%;
+        margin-left: 19%;
+        opacity: 1;
+        transition: 0.1s ease;
+        backface-visibility: hidden;
+    }
+    .pic3 > img{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        margin-top: 5.3%;
+        margin-left: 39%;
+        opacity: 1;
+        transition: 0.1s ease;
+        backface-visibility: hidden;
+    }
+    .pic4 > img{
+        position: absolute;
+        width: 310px;
+        height: 350px;
+        margin-top: 5.3%;
+        margin-left: 60.3%;
+        opacity: 1;
+        transition: 0.1s ease;
+        backface-visibility: hidden;
+    }
+    .pic5 > img{
+        position: absolute;
+        width: 255px;
+        height: 350px;
+        margin-top: 5.3%;
+        margin-left: 82%;
+        opacity: 1;
+        transition: 0.1s ease;
+        backface-visibility: hidden;
+    
+    }
+    .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+     
+       
+      }
+    .pic1:hover >img{
+        opacity: 0.3;
+    }  
+    .pic1:hover > .middle{
+        opacity: 1;
+    }
+    .text {
+        
+        color:rgb(14, 11, 11);
+        font-size: 35px;
+        margin-top: 500px;
+        font-weight: bolder;
+       
+      }
+      .pic1 {
+        position: relative;
+       
+      }
+      .middle1 {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 80%;
+       left: 10%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .middle2 {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .middle3 {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 80%;
+       left: 10%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .middle4 {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .pic2:hover >img{
+        opacity: 0.3;
+    }  
+    .pic2:hover > .middle1{
+        opacity: 1;
+    }
+    .text1 {
+        
+        color:rgb(14, 11, 11);
+        font-size: 35px;
+        margin-top: 500px;
+        margin-left: 500px;
+        font-weight: bolder;
+       
+      }
+      .pic2 {
+        position: relative;
+      }
+      .pic3:hover >img{
+        opacity: 0.3;
+    }  
+    .pic3:hover > .middle2{
+        opacity: 1;
+    }
+    .text2 {
+        
+        color:rgb(14, 11, 11);
+        font-size: 35px;
+        margin-top: 500px;
+        margin-left: 1100px;
+        font-weight: bolder;
+       
+      }
+      .pic3 {
+        position: relative;
+      }
+      .pic4:hover >img{
+        opacity: 0.3;
+    }  
+    .pic4:hover > .middle3{
+        opacity: 1;
+    }
+    .text3 {
+        
+        color:rgb(14, 11, 11);
+        font-size: 35px;
+        margin-top: 500px;
+        margin-left: 1700px;
+        font-weight: bolder;
+       
+      }
+      .pic4 {
+        position: relative;
+      }
+    
+    .pic5:hover >img{
+      opacity: 0.3;
+    }  
+    .pic5:hover > .middle4{
+      opacity: 1;
+    }
+    .text4 {
+      
+      color:rgb(14, 11, 11);
+      font-size: 35px;
+      margin-top: 900px;
+      margin-left: 1200px;
+      font-weight: bolder;
+     
+    }
+    .pic5 {
+      position: relative;
+    }
+       
